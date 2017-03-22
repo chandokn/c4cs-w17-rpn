@@ -7,8 +7,8 @@ OPERATORS = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
-	#'^': operator.pow,
-	'%': operator.mod,
+	'^': operator.pow,
+	#'%': operator.mod,
 }
 
 
