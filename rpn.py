@@ -23,8 +23,9 @@ def calculate(arg):
 			arg1 = stack.pop()
 			operator_fn = OPERATORS[operand]
 			result = operator_fn(arg1, arg2)
-			
+						
 			stack.append(result)
+	print "This is a test!"
 	return stack.pop()
 
 def main():
