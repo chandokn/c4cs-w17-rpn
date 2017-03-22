@@ -28,6 +28,12 @@ def calculate(arg):
 	#print("This is a test!")
 	return stack.pop()
 
+def print one_plus_one():
+	numOnePointFive = 1.5
+	numNegPointFive = -0.5
+	numOne = numOnePointFive - numNegPointFive
+	return numOne
+
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
