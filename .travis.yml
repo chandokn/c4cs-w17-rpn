@@ -6,6 +6,7 @@ install:
   - pip install coveralls
   - pip install coverage
   - pip install nose
+  - pip3 install termcolor
 script: 
   - make test
   - nosetests --with-coverage
