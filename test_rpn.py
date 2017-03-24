@@ -1,5 +1,8 @@
 import unittest
 import rpn
+import time
+import termcolor
+import sys
 
 class TestBasics(unittest.TestCase):
 	def test_add(self):
@@ -11,4 +14,12 @@ class TestBasics(unittest.TestCase):
 	def test_exponentiation(self):
 		result = rpn.calculate('2 3 ^')
 		self.assertEqual(8, result)
-
+	finalOutput = "All tests have passed. Congratulations!"
+	for x in range(0, len(finalOutput)):
+		if(x % 2 == 0):
+			print(termcolor.colored(finalOutput[i], "red")),
+		else:
+			print(termcolor.colored(finalOutput[i], "green")),
+		sys.stdout.flush()
+		time.sleep(1)
+		
