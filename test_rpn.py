@@ -17,9 +17,9 @@ class TestBasics(unittest.TestCase):
 	finalOutput = "All tests have passed. Congratulations!"
 	for x in range(0, len(finalOutput)):
 		if(x % 2 == 0):
-			print(termcolor.colored(finalOutput[i], "red")),
+			print(termcolor.colored(finalOutput[x], "red")),
 		else:
-			print(termcolor.colored(finalOutput[i], "green")),
+			print(termcolor.colored(finalOutput[x], "green")),
 		sys.stdout.flush()
 		time.sleep(1)
 		
